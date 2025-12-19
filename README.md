@@ -59,6 +59,7 @@ INSERT INTO customers VALUES
 -- SQL Analysis Queries
  -- Total Orders
  SELECT COUNT(*) AS total_orders FROM orders;
+
 -- Revenue Per Order
 SELECT o.order_id,
 SUM(p.price * od.quantity) AS revenue
@@ -66,6 +67,7 @@ FROM orders o
 JOIN order_details od ON o.order_id = od.order_id
 JOIN products p ON od.product_id = p.product_id
 GROUP BY o.order_id;
+
 -- Top-Selling Products
 SELECT p.product_name,
 SUM(od.quantity) AS total_sold
