@@ -1,7 +1,7 @@
 # online-store-sql-project
 Beginner SQL project using MySQL for sales analysis
 
-# 🛒 Online Store Sales Analysis (SQL Project)
+# Online Store Sales Analysis (SQL Project)
 
  Project Overview
 This beginner-friendly SQL project analyzes online store sales data using MySQL.  
